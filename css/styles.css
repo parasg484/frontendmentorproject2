@@ -1,0 +1,108 @@
+/* body{
+  background-image: url(./images/bg-desktop.svg);
+  background-color: rgb(113, 56, 182);
+  background-repeat: no-repeat;
+}
+.wrapper{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+.header img{
+  padding-top: 40px;
+  padding-left: 60px;
+} */
+body{
+  /* background-image: url(./images/bg-desktop.svg); */
+  /* background-color: hsl(257, 40%, 49%); */
+  background-image: url(http://127.0.0.1:5500/images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.mid-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.right-container{
+  display: flex;
+  flex-direction:column;
+  /* justify-content: center; */
+  padding-left: 50px;
+  padding-top: 130px;
+  
+}
+.right-container span{
+  color: white;
+  font-size: 2.3em;
+  font-family: 'poppins';
+  font-weight: bold;
+}
+.right-container p{
+  color: white;
+  font-family: "poppins";
+  font-size: 1em;
+  line-height: 1.8;
+  opacity: 80%;
+}
+.right-container button{
+  width: 200px;
+  height: 50px;
+  color: hsl(257, 20%, 49%);
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px black;
+  margin-top: 12px;
+  font-size: 18px;
+}
+.footer{
+  display: inline;
+  margin-left: auto;
+  margin-right: 0;
+  padding-right: 60px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  /* margin-right: 8880px; */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook, .fa-twitter, .fa-instagram  {
+  /* border: 30px; */
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 20px;
+  
+}
+.header{
+  padding-top: 25px;
+  padding-left: 35px;
+}
+.left-container{
+  padding-top: 90px;
+  padding-left: 65px;
+}
